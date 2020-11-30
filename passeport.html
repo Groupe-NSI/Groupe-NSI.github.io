@@ -22,16 +22,40 @@
     	<input type="text" name="prenom" id="prenom" required>
   	</div>
     <div class="identifiants-form">
+    	<label>Nationalité: </label><br>
+    	<input type="text" name="nationalite" id="nationalite" required>
+  	</div>
+    <div>
+      <label>Sexe:</label><br>
+      <input type="radio" id="homme" name="sexe" value="homme">
+      <label for="homme">Homme</label>
+
+      <input type="radio" id="femme" name="sexe" value="femme">
+      <label for="femme">Femme</label>
+    </div>
+    <div class="identifiants-form">
     	<label>Date de naissance: </label>
       <label for="agealea">Aléatoire </label>
       <input type="checkbox" name="agealea" id="agealea" value="Aléatoire"><br>
-    	<input type="date" name="age" id="age"required>
+    	<input type="date" name="age" id="age" required>
+  	</div>
+    <div class="identifiants-form">
+    	<label>Domicile: </label>
+      <label for="domicilealea">Aléatoire </label>
+      <input type="checkbox" name="domicilealea" id="domicilealea" value="Aléatoire"><br>
+    	<input type="text" name="domicile" id="domicile" required>
   	</div>
     <div class="identifiants-form">
     	<label>Date de délivrance: </label>
       <label for="delialea">Aléatoire </label>
       <input type="checkbox" name="delialea" id="delialea" value="Aléatoire"><br>
-    	<input type="date" name="deli" id="deli" min="10" max="100" required>
+    	<input type="date" name="deli" id="deli" required>
+  	</div>
+    <div class="identifiants-form">
+    	<label>Date d'expiration: </label>
+      <label for="expalea">Aléatoire </label>
+      <input type="checkbox" name="expalea" id="expalea" value="Aléatoire"><br>
+    	<input type="date" name="exp" id="exp" required>
   	</div>
   	<div class="identifiants-form">
     	<input type="submit" value="Valider">
