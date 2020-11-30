@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Formulaire pour carte d'identitée</title>
+		<meta charset="utf_8">
+		<link rel="stylesheet" type="text/css" href="cssFORMULAIRE.css">
+	</head>
+	<body>
+        <div id="feuille">
+		<h1>Formulaire</h1>
+		<form method="post" action="traitement.php">
+			<label for="prenoms">Prénom(s) (prénom1, prénom2, ...):</label>
+			<input type="text" name="prenoms"><br><br>
+
+			<label for="prenoms">Nom:</label>
+			<input type="text" name="nom"><br><br>
+
+			<label for="prenoms">Date de naissance:</label>
+			<input type="date" name="naissance"><br><br>
+
+			<label for="taille">Taille(en cm):</label>
+			<input type="number" name="taille"><br><br>
+
+			<p1>Sexe:</p1><br>
+			<input type="radio" id="homme" name="sexe" value="homme">
+			<label for="homme">Homme</label><br>
+			<input type="radio" id="femme" name="sexe" value="femme">
+			<label for="femme">Femme</label><br><br>
+
+			<label for="lieu">Ville de denaissance:</label>
+			<input type="text" name="lieu"><br><br>
+
+			<label for="postal">Code postal:</label>
+            <input type="number" name="postal"><br><br>
+            
+            <label for="ville">Ville actuelle:</label>
+			<input type="text" name="ville"><br><br>
+
+			<label for="prefecture">Préfecture:</label>
+			<input type="text" name="prefecture"><br><br>
+
+			<label for="prenom_prefet">Prénom du préfet:</label>
+			<input type="text" name="prenom_prefet"><br><br>
+
+			<label for="nom_prefet">Nom du préfet:</label>
+			<input type="text" name="nom_prefet"><br><br>
+
+			<input type="submit" name="envoyer" value="envoyer"><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+	</body>
