@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Formulaire attestation médical</title>
+		<meta charset="utf_8">
+		<link rel="stylesheet" type="text/css" href="cssFORMULAIRE.css">
+	</head>
+	<body>
+		<h1>Formulaire attestation médical</h1>
+		<form method="post" action="traitement.php">
+			<label for="prenom">Prénom:</label>
+			<input type="text" name="prenoms"><br><br>
+
+			<label for="prenoms">Nom:</label>
+			<input type="text" name="nom"><br><br>
+
+			<label for="date">Date de la consultation:</label>
+            <input type="date" name="date"><br><br>
+
+            <label for="date">Date de naissance:</label>
+            <input type="date" name="naissance"><br><br>
+            
+            <label for="Ville">Ville de naissance:</label>
+			<input type="text" name="villen"><br><br>
+
+			<p1>Sexe:</p1><br>
+			<input type="radio" id="homme" name="sexe" value="homme">
+			<label for="homme">Homme</label><br>
+			<input type="radio" id="femme" name="sexe" value="femme">
+			<label for="femme">Femme</label><br><br>
+
+			<label for="postal">Code postal:</label>
+			<input type="number" name="postal"><br><br>
+
+			<label for="cabinet">Nom du cabinet:</label>
+			<input type="text" name="cabinet"><br><br>
+
+			<label for="ville">Ville:</label>
+			<input type="text" name="ville"><br><br>
+
+			<label for="prenom_medecin">Prénom du médecin:</label>
+			<input type="text" name="prenom_medecin"><br><br>
+
+			<label for="nom_medecin">Nom du médecin:</label>
+			<input type="text" name="nom_medecin"><br><br>
+            
+            <label for="prez">Motif:</label>
+            <input type="prez" name="motif"><br><br>
+
+			<input type="submit" name="envoyer" value="envoyer">
+
+	</body>
