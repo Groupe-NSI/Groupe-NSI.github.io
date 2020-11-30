@@ -7,18 +7,34 @@
   	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<script src="js/passeport.js"></script>
+	<script src="js/base.js"></script>
 	<form action="" method="get" class="identifiants-form">
 		<div class="identifiants-form">
-    		<label for="nom">Enter your name: </label>
-    		<input type="text" name="nom" id="nom" required>
-  		</div>
-  		<div class="identifiants-form">
-    		<label for="prenom">Enter your email: </label>
-    		<input type="text" name="prenom" id="prenom" required>
-  		</div>
-  		<div class="identifiants-form">
-    		<input type="submit" value="Subscribe!">
-  		</div>
+    	<label>Nom: </label>
+      <label for="nomalea">Aléatoire </label>
+      <input type="checkbox" name="nomalea" id="nomalea" value="Aléatoire"><br>
+      <input type="text" name="nom" id="nom" required>
+  	</div>
+  	<div class="identifiants-form">
+    	<label>Prénom: </label>
+      <label for="prenomalea">Aléatoire </label>
+      <input type="checkbox" name="prenomalea" id="prenomalea" value="Aléatoire"><br>
+    	<input type="text" name="prenom" id="prenom" required>
+  	</div>
+    <div class="identifiants-form">
+    	<label>Date de naissance: </label>
+      <label for="agealea">Aléatoire </label>
+      <input type="checkbox" name="agealea" id="agealea" value="Aléatoire"><br>
+    	<input type="date" name="age" id="age"required>
+  	</div>
+    <div class="identifiants-form">
+    	<label>Date de délivrance: </label>
+      <label for="delialea">Aléatoire </label>
+      <input type="checkbox" name="delialea" id="delialea" value="Aléatoire"><br>
+    	<input type="date" name="deli" id="deli" min="10" max="100" required>
+  	</div>
+  	<div class="identifiants-form">
+    	<input type="submit" value="Valider">
+  	</div>
 	</form>
 </body>
