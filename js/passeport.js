@@ -45,3 +45,7 @@ document.getElementById('expalea').onclick = function() {
   	document.getElementById('exp').style.display ="block";
   }
 }
+
+document.getElementById('submit').onclick = function() {
+	
+}
