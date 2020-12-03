@@ -12,11 +12,6 @@ font-family: 'Major Mono Display', monospace;
 font-size: 200%;
 text-align: left;
 }
-h3{
-font-family: 'Major Mono Display', monospace;
-font-size: 200%; 
-text-align: right;
-}
 body{
 font-family: system-ui;
 font-size: 100%; 
@@ -31,6 +26,13 @@ ul {
   overflow: hidden;
   background-color: #404040;
 }
+u2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
 
 li {
   float: left;
@@ -42,7 +44,16 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+.id{ 
+  display: block;
+  color: #404040;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 li a:hover {
   background-color: #808080;
+ }
+ .id:hover {
+  background-color: #404040;
  }
