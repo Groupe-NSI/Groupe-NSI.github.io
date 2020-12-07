@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+#titre {
+font-family: 'Major Mono Display', monospace;
+font-size: 300%; 
+text-align: center;
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#identifiants-div {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#resultat {
+  display: none;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+h2{
+font-family: 'Major Mono Display', monospace;
+font-size: 200%;
+text-align: left;
+}
+h3{
+font-family: 'Major Mono Display', monospace;
+font-size: 200%; 
+text-align: right;
+}
+body{
+font-family: system-ui;
+font-size: 100%; 
+color: #404040;
+text-align: left;
+	
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #404040;
+}
+
+li {
+  float: left;
+}
+
+li a { 
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #808080;
+}
+
+label {
+  background-color: #fff
+}
