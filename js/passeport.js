@@ -47,5 +47,5 @@ document.getElementById('expalea').onclick = function() {
 }
 
 document.getElementById('submit').onclick = function() {
-	
+	document.getElementById('resultat').style.display = "block";
 }
