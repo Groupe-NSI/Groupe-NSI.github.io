@@ -1,17 +1,17 @@
 <head>
   <title>Jeu du Bouton</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" src="css/style.css">
 </head>
 <body>
-  <script src="js/jeu_bouton.js"></script>
+  <script type="text/javascript" src="js/jeu_bouton.js"></script>
   <div id="main">
     <div id="start">
-      <button id="commencer" type="button">Commencer</button>
+      <button id="commencer" type="button" onclick="commencer()">Commencer</button>
     </div>
     <div id="jouer">
       <input id="entree" type="number">
-      <button id="valider" type="button">Deviner</button>
+      <button id="valider" type="button" onclick="deviner()">Deviner</button>
     </div>
   </div>
 </body>
