@@ -1,36 +1,17 @@
 <head>
-  <title>Projets NSI</title>
-  <link rel="stylesheet" href="css/indexcss.css">
+  <title>Jeu du Bouton</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div>
-  <ul> 
-    <li>
-      <a href="jeu_bouton.html">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span class="fa fa-bouton"></span>
-      </a> 
-    </li>
-    <li>
-      <a href="certificat.html">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span class="fa fa-certificat"></span>
-      </a> 
-    </li>
-    <li>
-      <a href="#">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span class="fa fa-mouais"></span>
-      </a> 
-    </li>
-  </ul>  
-</div> 
+  <script src="js/jeu_bouton.js"></script>
+  <div id="main">
+    <div id="start">
+      <button id="commencer" type="button" onclick="commencer()">Commencer</button>
+    </div>
+    <div id="jouer">
+      <input id="entree" type="number">
+      <button id="valider" type="button" onclick="deviner()">Deviner</button>
+    </div>
+  </div>
+</body>
