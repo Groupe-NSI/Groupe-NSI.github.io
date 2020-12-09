@@ -1,92 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-
-#contenu {
-  display: none;
+body {
+  background-image: url("https://www.toutelatele.com/IMG/arton115093.jpg");
+  background-size:cover;
 }
 
-#avertissement {
+div #start {
+  height: 200px;
   margin: 0 auto;
-  width: 50%;
-  text-align:center;
-  display: block;
-  box-shadow: 5px 5px 5px black;
-  border-radius: 15px 50px 30px;
-  background-color: #f0f0f0;
-}
-
-.avert {
   text-align: center;
 }
 
-button {
-  display: inline-block;
-  padding: 0.2em 1.45em;
-  margin: 0.1em;
-  border: 0.15em solid #CCCCCC;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Segoe UI', 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #000000;
-  background-color: #CCCCCC;
+div #jouer {
+  display: none;
+  height: 200px;
+  margin: 0 auto;
   text-align: center;
-  position: relative;
-}
-button:active{
-  background-color: #999999;
-}
-button:hover{
-  border-color: #7a7a7a;
-}
-
-h1{
-font-family: 'Major Mono Display', monospace;
-font-size: 300%; 
-text-align: center;
-background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png');
-background-repeat: no-repeat;
-background-size: cover;
-}
-h2{
-font-family: 'Major Mono Display', monospace;
-font-size: 200%;
-text-align: left;
-}
-h3{
-font-family: 'Major Mono Display', monospace;
-font-size: 200%; 
-text-align: right;
-}
-body{
-font-family: system-ui;
-font-size: 100%; 
-color: #404040;
-text-align: left;
-	
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #404040;
-}
-
-li {
-  float: left;
-}
-
-li a { 
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #808080;
-}
-
-label {
-  background-color: #fff
 }
