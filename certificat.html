@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Formulaire attestation médical</title>
+		<title>Formulaire attestation médicale</title>
 		<meta charset="utf_8">
 		<link rel="stylesheet" type="text/css" href="cssFORMULAIRE.css">
 </head>
@@ -8,20 +8,17 @@
   <div id="feuille">
 		<h1>Formulaire attestation médical</h1>
 		<form method="post" action="traitement.php">
-			<label for="prenom">Prénom:</label>
-			<input type="text" id="prenom" name="prenoms"><br><br>
-
-			<label for="nom">Nom:</label>
-			<input type="text" id="nom" name="nom"><br><br>
+			<input type="text" id="prenom" name="prenoms" placeholder="prenom"><br><br>
+      
+			<input type="text" id="nom" name="nom" placeholder="Nom"><br><br>
 
 			<label for="date">Date de la consultation:</label>
-            <input type="date" name="date"><br><br>
+            <input type="date" name="date" ><br><br>
 
             <label for="date">Date de naissance:</label>
             <input type="date" name="naissance"><br><br>
             
-            <label for="Ville">Ville de naissance:</label>
-			<input type="text" name="villen"><br><br>
+			<input type="text" name="villen" placeholder ="Ville de naissance"><br><br>
 
 			<p1>Sexe:</p1><br>
 			<input type="radio" id="homme" name="sexe" value="homme">
@@ -29,26 +26,16 @@
 			<input type="radio" id="femme" name="sexe" value="femme">
 			<label for="femme">Femme</label><br><br>
 
-			<label for="postal">Code postal:</label>
-			<input type="number" id="codepostal" name="postal"><br><br>
+			<input type="number" id="codepostal" name="postal" placeholder ="Code postal"><br><br>
+			<input type="text" id="cabinet" name="cabinet" placeholder="Cabinet"><br><br>
+      
+			<input type="text" id="ville" name="ville" placeholder="Ville"><br><br>
+			<input type="text" id="prenom_medecin" name="prenom_medecin" placeholder="Prenom du medecin"><br><br>
+			<input type="text" id="nom_medecin" name="nom_medecin" placeholder ="Nom du medecin"><br><br>
+      <input type="prez" id="motif" name="motif" placeholder="Motif"><br><br>
 
-			<label for="cabinet">Nom du cabinet:</label>
-			<input type="text" id="cabinet" name="cabinet"><br><br>
-
-			<label for="ville">Ville:</label>
-			<input type="text" id="ville" name="ville"><br><br>
-
-			<label for="prenom_medecin">Prénom du médecin:</label>
-			<input type="text" id="prenom_medecin" name="prenom_medecin"><br><br>
-
-			<label for="nom_medecin">Nom du médecin:</label>
-			<input type="text" id="nom_medecin" name="nom_medecin"><br><br>
-            
-            <label for="prez">Motif:</label>
-            <input type="prez" id="motif" name="motif"><br><br>
-
-			<input type="button" name="envoyer" value="envoyer" id="valider">
-      </form>
+<input type="button" name="envoyer" value="envoyer" id="valider">
+		</form>
     </div>
 
 </body>
