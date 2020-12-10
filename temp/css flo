@@ -1,0 +1,24 @@
+body {
+  background-image: url("https://www.toutelatele.com/IMG/arton115093.jpg");
+  background-size:cover;
+}
+
+div #start {
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div #jouer {
+  display: none;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div #victoire {
+  display: none;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
