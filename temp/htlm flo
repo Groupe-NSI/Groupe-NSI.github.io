@@ -1,0 +1,21 @@
+<head>
+  <title>Jeu du Bouton</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <script src="js/jeu_bouton.js"></script>
+  <div id="main">
+    <div id="start">
+      <button id="commencer" type="button" onclick="commencer()">Commencer</button>
+    </div>
+    <div id="jouer">
+      <input id="entree" type="number">
+      <button id="valider" type="button" onclick="deviner()">Deviner</button>
+    </div>
+    <div id="victoire">
+      <input type="button" onclick='window.location.reload(false)' value="Recommencer le meilleur jeu"/><br>
+      <t>VICTOIRE!</t>
+    </div>
+  </div>
+</body>
