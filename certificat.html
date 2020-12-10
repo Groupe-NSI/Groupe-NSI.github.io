@@ -1,28 +1,27 @@
 <html>
 <head>
-<meta charset="utf-8>
+<meta charset="utf-8">
 <title>Formulaire pour carte d'identitée</title>
 <link rel="stylesheet" type="text/css" href="cssFORMULAIRE.css">
 </head>
 <body>
 <div id="feuille">
-<h1><u>Formulaire <BR>d'attestation</u></h1>
+<h1><u>Formulaire <br>d'attestation</u></h1>
 <ul>
 <li><a href="flemingite.html">Accueil</a></li>
 <li><a href="certificat.html">Certificats médicaux</a></li>
 <li><a href="cartes.d'identité.html">Cartes d'identité</a></li>
 </ul>
-<BR>
+<br>
 <form method="GET" action="validation.php">
 <label for="prenoms"></label>
-<input type="text" name="prenoms" id="prenoms" required="required" placeholder="Prénom"><br>
+<input type="text" name="prenoms" id="prenom" required="required" placeholder="Prénom"><br>
 <label for="nom"></label>
 <input type="text" name="nom" id="nom" required="required" placeholder="Nom"><br><br>
-<label for="consultation">Date de la consultation:</label>
-<input type="date" name="consultation" id="consultation" required="required"><br><br>
-
-<label for="naissance">Date de naissance:</label>
-<input type="date" name="naissance" id="naissance" required="required"><br>
+<label for="consultation">Debut de l'arrêt maladie</label>
+<input type="date" name="debut" id="debut" required="required"><br><br>
+<label for="naissance">Fin de l'arrêt maladie</label>
+<input type="date" name="fin" id="fin" required="required"><br>
 <p1>Sexe:</p1><br>
 <form action="#">
   <p>
@@ -35,16 +34,28 @@
   </p>
 </form>
 <label for="postal"><span class="checkmark"></span></label>
-<input type="text" name="postal" id="postal" required="required" placeholder="Code postal"><br>
+<input type="text" name="medecin" id="medecin" required="required" placeholder="Nom du médecin"><br>
 <label for="ville"></label>
-<input type="text" name="ville" id="ville" required="required" placeholder="Ville"><br>
+<input type="text" name="" id="jours" required="required" placeholder="Nombre de jours"><br>
 <input type="submit" name="valider" value="Valider" id="valider">
-
 </form>
+</div>
+<div id="attestation">
+<img src=https://lh3.googleusercontent.com/proxy/1n9oTCG8XGuDogQ3MqlJ9_OLKV5p0JJJVG7dyDMRIPenXwlqohhbZjxIaHuuSaVghzDNtgyWE4csnugZ7teXagLX5IOXqi5lDcPpymHmSeZI-7eWswgFYb1GVGXxvzv7 id ='hermes'>
+<h2>
+Certificat médical
+</h2>
+<h3>
+  Je sousigné docteur <span id="r_medecin"></span><br>
+  Certifie que l'état de santé de mon patient <span id="r_sexe"></span> <span id="r_nom"></span> <span id="r_prenom"></span><br>
+  Nécésite un traitement avec arrêt de travail de <span id="r_jours"></span> jours sauf complications, du <span id="r_debut"></span> au <span id="r_fin"></span>.
+ </h3>
 </div>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-
+img {
+}
+}
 h1 {
 font-family: 'Major Mono Display', monospace;
 font-size: 300%; 
@@ -52,6 +63,18 @@ text-align: center;
 background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png');
 background-repeat: no-repeat;
 background-size: cover;
+}
+h2 {
+font-family: ' Courier New', monospace;
+font-size: 200%; 
+text-align: center;
+color : #0CE8F7;
+}
+h3 {
+font-family: ' Courier New', monospace;
+font-size: 100%; 
+text-align: left;
+color : #0CE8F7;
 }
 body{
 font-family: system-ui;
@@ -86,7 +109,6 @@ input {
 width: 30%;
 }
 input[type=text] {
-width: 30%;
 padding: 12px 20px;
 margin: 8px 0;
 border: none;
