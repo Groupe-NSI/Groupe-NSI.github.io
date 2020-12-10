@@ -16,7 +16,7 @@ function deviner() {
 	document.body.style.backgroundImage = "url('https://groupe-nsi.github.io/img/plus_haut.jpg')";
   	alert("Plus haut!");
   } else {
-	document.body.style.backgroundImage = "url('https://groupe-nsi.github.io/img/gagne.jpg')";
+	document.body.style.backgroundImage = "url('https://64.media.tumblr.com/4ee9b7af81c625b09c5693c8fef6a574/tumblr_inline_pk6hrjSWI31rkpscc_400.gifv')";
   	alert("Tu as un qi de " + nombre);
   }
 }
