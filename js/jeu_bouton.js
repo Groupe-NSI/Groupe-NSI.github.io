@@ -10,13 +10,13 @@ function commencer() {
 function deviner() {
 	var valeur = document.getElementById('entree').value;
   if (valeur > nombre) {
-	document.body.style.backgroundImage = "url('https://file1.telestar.fr/var/telestar/storage/images/3/1/5/0/3150739/vincent-lagaf-dans-strike.jpg?alias=original')";
+	document.body.style.backgroundImage = "url('https://groupe-nsi.github.io/img/plus_bas.jpg')";
   	alert("Plus bas!");
   } else if (valeur < nombre) {
-	document.body.style.backgroundImage = "url('https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2018-04/Audiences-TV-Le-juste-prix-de-Vincent-Lagaf-atteint-des-sommets.jpg')";
+	document.body.style.backgroundImage = "url('https://groupe-nsi.github.io/img/plus_haut.jpg')";
   	alert("Plus haut!");
   } else {
-	document.body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/785944479853051954/786286026606903326/telechargement.jpeg')";
+	document.body.style.backgroundImage = "url('https://groupe-nsi.github.io/img/gagne.jpg')";
   	alert("Tu as un qi de " + nombre);
   }
 }
