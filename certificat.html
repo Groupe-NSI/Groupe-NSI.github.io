@@ -2,6 +2,7 @@
 <head>
 <meta charset="utf-8">
 <title>certificat médical</title>
+<link rel="stylesheet" type="text/css" href="cssFORMULAIRE.css">
 </head>
 <body>
   <script src="js/certificat.js"></script>
@@ -36,7 +37,7 @@
 <label for="postal"><span class="checkmark"></span></label>
 <input type="text" name="medecin" id="medecin" required="required" placeholder="Nom du médecin"><br>
 <label for="ville"></label>
-<input type="text" name="" id="jours" required="required" placeholder="Nombre de jours"><br><br>
+<input type="text" name="" id="jours" required="required" placeholder="Nombre de jours"><br>
 <input type="submit" name="valider" value="Valider" id="valider">
 </form>
 </div>
@@ -54,6 +55,9 @@ Certificat médical
 </div>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+#attestation {
+  display: none;
+}
 h1 {
 font-family: 'Major Mono Display', monospace;
 font-size: 300%; 
@@ -123,9 +127,6 @@ border: 2px solid #808080;
 border-radius: 12px;
 background-color: white;
 padding: 15px 24px;
-font-family: system-ui;
-font-size: 100%; 
-color: #404040;
 }
 
 input[type=text]:focus {
