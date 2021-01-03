@@ -221,7 +221,9 @@ display: none;
   }
 
   document.getElementById("printbutton").onclick = function() {
+	document.getElementById("printbutton").style.display = "none";
   	print(document.getElementById('attestation'));
+	document.getElementById("printbutton").style.display = "block";
   }
   </script>
 </body>
