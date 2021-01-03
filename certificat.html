@@ -218,6 +218,10 @@ display: none;
   r_debut.innerHTML = debut;
   r_fin.innerHTML = fin;
   r_jours.innerHTML = jours;
-  print(document.getElementById('attestation'));}
+  }
+
+  document.getElementById("printbutton").onclick = function() {
+  	print(document.getElementById('attestation'));
+  }
   </script>
 </body>
